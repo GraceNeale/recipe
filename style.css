@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+
+body {
+    background-color: blanchedalmond;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1, h2 {
+    font-family: "Monsieur La Doulaise", cursive;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+#center {
+    text-align: center;
+}
+
+h2, ol, ul {
+    margin-left: 25%;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+ol, ul {
+    line-height: 2;
+}
