@@ -3,11 +3,17 @@
 body {
     background-color: blanchedalmond;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    max-width: 500px;
 }
 
 h1, h2 {
     font-family: "Monsieur La Doulaise", cursive;
     font-weight: bold;
+}
+
+h1, p {
+    text-align: center;
 }
 
 h1 {
@@ -18,18 +24,17 @@ h2 {
     font-size: 2em;
 }
 
-#center {
-    text-align: center;
-}
-
-h2, ol, ul {
-    margin-left: 25%;
-}
-
 ol {
     list-style-type: upper-roman;
 }
 
 ol, ul {
     line-height: 2;
+}
+
+.container {
+    background-color: oldlace;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 3px;
 }
